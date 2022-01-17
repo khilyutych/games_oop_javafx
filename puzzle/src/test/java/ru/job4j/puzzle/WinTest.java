@@ -55,4 +55,7 @@ public class WinTest {
         };
         assertThat(Win.check(board), is(false));
     }
+
+    public void testMonoHorizontal() {
+    }
 }
